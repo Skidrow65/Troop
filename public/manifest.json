@@ -1,6 +1,6 @@
 {
-  "short_name": "Troop",
-  "name": "Welcome to Troop",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "mote1.jpeg",
