@@ -71,7 +71,7 @@ function App() {
       ))}
       <footer>
       <div class="footer__bar">
-        <p>@ohm</p>
+        <p></p>
         Troop.2024.
      </div>
       </footer>
