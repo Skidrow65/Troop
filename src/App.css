@@ -35,7 +35,7 @@ div.task{
   background-color: #30313D;
   border-radius: 10px;
   padding: 5px 9px;
-  margin-top: 5px;
+  margin-top: 8px;
   display:flex;
   align-items: center;
   transition: opacity .3s linear;
@@ -72,7 +72,7 @@ h1, h2{
   text-align: center;
 }
 h1 {
-  margin-top: 80px;
+  margin-top: 75px;
   font-size: 24px;
   margin-bottom: -12px;
   text-decoration: underline 2px solid burlywood;
