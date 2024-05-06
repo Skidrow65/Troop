@@ -72,10 +72,10 @@ h1, h2{
   text-align: center;
 }
 h1 {
-  font-size: 24px;
-  margin-bottom: -12px;
-  
-  color: burlywood;
+    font-size: 24px;
+    margin-bottom: -12px;
+    color: burlywood;
+    margin-top: 60px;
 }
 
 
