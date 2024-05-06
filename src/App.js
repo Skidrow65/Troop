@@ -73,7 +73,7 @@ function App() {
       <footer>
       <div class="footer__bar">
         <p>Ω</p>
-        Troop.2024.
+        Troop.2024
      </div>
       </footer>
     </main>
