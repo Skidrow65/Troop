@@ -60,8 +60,10 @@ function App() {
 
   return (
     <main>
-      <h1>🐒Welcome To Troop</h1>
-      <p>Your new scheduler.</p>
+      <section id="header">
+      🐒Troop
+      </section>
+      <p>..</p>
       <h2>{getMessage()}</h2>
       <TaskForm onAdd={addTask} />
       {tasks.map((task,index) => (
