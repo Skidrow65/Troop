@@ -73,9 +73,9 @@ function App() {
               onTrash={() => removeTask(index)}
               onToggle={done => updateTaskDone(index, done)} />
       ))}
-      
-     <footer>
-        <div>
+
+      <footer>
+     <div>
             <ul id="navbar">
             <li><i class="fa fa-grav"></i><a class="active" href="Contact.html">Home</a></li>
                 <li><i class="fa fa-archive"></i><a href="index.html">Archives</a></li>
@@ -89,3 +89,4 @@ function App() {
 }
 
 export default App;
+
