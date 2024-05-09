@@ -16,23 +16,27 @@ form{
   display:flex;
 }
 form input[type="text"] {
-  background: none;
-  color:#fff;
-  border:0;
-  padding: 4px 8px;
-  display:block;
-  width: 100%;
-  margin-left: 10px;
+    background: none;
+    color: #fff;
+    border: 0;
+    padding: 4px 8px;
+    display: block;
+    width: 100%;
+    margin-left: 10px;
+    height: 29px;
 }
 form input
 {
   padding: 4px 8px;
 }
-form button{
-  background-color: burlywood;
-  border:0;
-  border-radius: 6px;
-  cursor:pointer;
+form button {
+    background-color: burlywood;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    width: 30px;
 }
 
 div.task{
