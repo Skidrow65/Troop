@@ -17,7 +17,7 @@ form{
 }
 form input[type="text"] {
   background: none;
-  color:#fff;
+  color: #fff;
   border:0;
   padding: 4px 8px;
   display:block;
@@ -38,13 +38,10 @@ form button{
 div.task{
   background-color: #30313D;
   border-radius: 10px;
-<<<<<<< HEAD
   padding: 9px 9px;
   margin-top: 6px;
-=======
   padding: 10px 10px;
   margin-top: 8px;
->>>>>>> 5f5d0a5b9bec6c2d54a0deb49fb1b5b8db601c88
   display:flex;
   align-items: center;
   transition: opacity .3s linear;
@@ -81,12 +78,9 @@ h1, h2{
   text-align: center;
 }
 h1 {
-<<<<<<< HEAD
   font-size: 28px;
-=======
   margin-top: 75px;
   font-size: 30px;
->>>>>>> 5f5d0a5b9bec6c2d54a0deb49fb1b5b8db601c88
   margin-bottom: -12px;
   text-decoration: underline 2px solid burlywood;
   color: burlywood;
@@ -101,10 +95,7 @@ h2 {
   font-size: 18px;
   font-weight: 500;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 5f5d0a5b9bec6c2d54a0deb49fb1b5b8db601c88
 /*Header start*/
 #header {
   position: fixed;
@@ -121,7 +112,6 @@ h2 {
   color: antiquewhite;
   font-weight: 600;
 }
-<<<<<<< HEAD
 
 #headerContent {
   margin: 0 auto;
@@ -129,9 +119,6 @@ h2 {
   padding: 10px;
   border: 1px solid burlywood;
 }
-
-=======
->>>>>>> 5f5d0a5b9bec6c2d54a0deb49fb1b5b8db601c88
 
 div.checkbox{
   display:flex;
@@ -146,11 +133,8 @@ div.checkbox{
 .footer__bar p {
   color: #61DAFB;
   padding: 1rem;
-<<<<<<< HEAD
   font-size: 0.9rem;
-=======
   font-size: 1rem;
->>>>>>> 5f5d0a5b9bec6c2d54a0deb49fb1b5b8db601c88
   text-align: center;
   margin-bottom: -11px;
 }
@@ -254,8 +238,5 @@ div.task input{
     border-top-left-radius: 60px;
     border-top-right-radius: 58px;
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 5f5d0a5b9bec6c2d54a0deb49fb1b5b8db601c88
+
