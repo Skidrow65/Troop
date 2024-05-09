@@ -2,6 +2,7 @@ import './App.css';
 import TaskForm from "./TaskForm";
 import Task from "./Task";
 import {useEffect, useState} from "react";
+import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 
 function App() {
   const [tasks,setTasks] = useState([]);
@@ -60,7 +61,10 @@ function App() {
 
   return (
     <main>
-      <h1>🐒Welcome To Troop</h1>
+      <section id="header">
+      🐒Troop
+      </section>
+      <p>..</p>
       <h2>{getMessage()}</h2>
       <TaskForm onAdd={addTask} />
       {tasks.map((task,index) => (
@@ -70,10 +74,14 @@ function App() {
               onToggle={done => updateTaskDone(index, done)} />
       ))}
       <footer>
-      <div class="footer__bar">
-        <p>@ohm</p>
-        Troop.2024.
-     </div>
+     <div>
+            <ul id="navbar">
+            <li><i class="fa fa-grav"></i><a class="active" href="Contact.html">Home</a></li>
+                <li><i class="fa fa-archive"></i><a href="index.html">Archives</a></li>
+                <li><i class="fa fa-calendar"></i><a href="About.html">Scheduler</a> </li>
+                <li><i class="fa fa-tasks"></i><a href="Contact.html">Lists</a></li>
+            </ul>
+            </div>
       </footer>
     </main>
   );

@@ -6,7 +6,7 @@ body{
   box-sizing: border-box;
 }
 main{
-  max-width: 300px;
+  max-width: 345px;
   margin: 20px auto;
 }
 form{
@@ -24,6 +24,10 @@ form input[type="text"] {
   width: 100%;
   margin-left: 10px;
 }
+form input
+{
+  padding: 4px 8px;
+}
 form button{
   background-color: burlywood;
   border:0;
@@ -34,8 +38,8 @@ form button{
 div.task{
   background-color: #30313D;
   border-radius: 10px;
-  padding: 5px 9px;
-  margin-top: 5px;
+  padding: 9px 9px;
+  margin-top: 6px;
   display:flex;
   align-items: center;
   transition: opacity .3s linear;
@@ -72,10 +76,44 @@ h1, h2{
   text-align: center;
 }
 h1 {
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: -12px;
-  
+  text-decoration: underline 2px solid burlywood;
   color: burlywood;
+}
+p
+{
+  color: #61DAFB;
+  text-align: center;
+}
+h2 {
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*Header start*/
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 18px 15px;
+  background: rgba(1, 1, 20, 0.664);
+  font-size: 20px;
+  color: antiquewhite;
+  font-weight: 600;
+}
+
+#headerContent {
+  margin: 0 auto;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid burlywood;
 }
 
 
@@ -92,15 +130,75 @@ div.checkbox{
 .footer__bar p {
   color: #61DAFB;
   padding: 1rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   text-align: center;
   margin-bottom: -9px;
 }
 footer {
-  position:absolute;
-left:0;
 bottom:0;
-right:0;
+}
+footer {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  grid-template-rows: repeat(4, 1fr);
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 15px;
+  background: rgba(1, 1, 20, 0.664);
+  font-size: 20px;
+  color: antiquewhite;
+  font-weight: 600;
+  height: 70px;
+  border-top-left-radius: 65px;
+  border-top-right-radius: 58px;
+}
+#navbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: -50px;
+}
+#navbar li {
+  list-style: none;
+  padding: 0 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-top: -18px;
+}
+  #navbar li i {
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600;
+      color: white;
+      
+  }
+  #navbar li a {
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 600;
+      color: burlywood;
+      transition: 0.3s ease;
+  }
+  #navbar li a:hover,
+  #navbar li a.active {
+      color: rgba(199, 73, 14, 0.945);
+  }
+  #navbar li a.active::after, #navbar li a:hover::after {
+    content: "";
+    width: 50%;
+    height: 2px;
+    background: rgba(199, 73, 14, 0.945);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+    margin: auto;
 }
 
 button.trash{
@@ -117,4 +215,23 @@ div.task input{
   border: 2px solid #555;
   border-radius:5px;
   padding: 2px 4px;
+}
+@media (max-width: 477px) {
+  footer {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    grid-template-rows: repeat(4, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px;
+    background: rgba(1, 1, 20, 0.664);
+    font-size: 20px;
+    color: antiquewhite;
+    font-weight: 600;
+    height: 70px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 58px;
+  }
 }
