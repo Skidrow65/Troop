@@ -72,11 +72,15 @@ function App() {
               onTrash={() => removeTask(index)}
               onToggle={done => updateTaskDone(index, done)} />
       ))}
-      <footer>
-      <div class="footer__bar">
-        <p>Ω</p>
-        Troop.2024
-     </div>
+     <footer>
+     <div>
+            <ul id="navbar">
+            <li><i class="fa fa-grav"></i><a class="active" href="Contact.html">Home</a></li>
+                <li><i class="fa fa-archive"></i><a href="index.html">Archives</a></li>
+                <li><i class="fa fa-calendar"></i><a href="About.html">Scheduler</a> </li>
+                <li><i class="fa fa-tasks"></i><a href="Contact.html">Lists</a></li>
+            </ul>
+            </div>
       </footer>
     </main>
   );
