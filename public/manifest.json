@@ -8,12 +8,20 @@
       "type": "image/x-icon"
     },
     {
+<<<<<<< HEAD
       "src": "mote1.jpeg",
+=======
+      "src": "troop1.png",
+>>>>>>> 5f5d0a5b9bec6c2d54a0deb49fb1b5b8db601c88
       "type": "image/png",
       "sizes": "192x192"
     },
     {
+<<<<<<< HEAD
       "src": "mote1.jpeg",
+=======
+      "src": "troop2.png",
+>>>>>>> 5f5d0a5b9bec6c2d54a0deb49fb1b5b8db601c88
       "type": "image/png",
       "sizes": "512x512"
     }
@@ -23,3 +31,4 @@
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
+
