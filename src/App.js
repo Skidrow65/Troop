@@ -64,11 +64,7 @@ function App() {
       <section id="header">
       🐒Troop
       </section>
-<<<<<<< HEAD
-      <p>..</p>
-=======
       <p>...</p>
->>>>>>> 5f5d0a5b9bec6c2d54a0deb49fb1b5b8db601c88
       <h2>{getMessage()}</h2>
       <TaskForm onAdd={addTask} />
       {tasks.map((task,index) => (
@@ -77,12 +73,9 @@ function App() {
               onTrash={() => removeTask(index)}
               onToggle={done => updateTaskDone(index, done)} />
       ))}
-<<<<<<< HEAD
-      <footer>
-=======
+      
      <footer>
->>>>>>> 5f5d0a5b9bec6c2d54a0deb49fb1b5b8db601c88
-     <div>
+        <div>
             <ul id="navbar">
             <li><i class="fa fa-grav"></i><a class="active" href="Contact.html">Home</a></li>
                 <li><i class="fa fa-archive"></i><a href="index.html">Archives</a></li>
