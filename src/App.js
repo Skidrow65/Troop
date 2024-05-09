@@ -2,6 +2,7 @@ import './App.css';
 import TaskForm from "./TaskForm";
 import Task from "./Task";
 import {useEffect, useState} from "react";
+import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 
 function App() {
   const [tasks,setTasks] = useState([]);
