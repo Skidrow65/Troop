@@ -13,14 +13,14 @@ form{
   border: 3px solid #30313D;
   border-radius: 10px;
   padding: 5px;
-  display:flex;
+  display: flex;
 }
 form input[type="text"] {
   background: none;
   color: #fff;
-  border:0;
+  border: 0;
   padding: 4px 8px;
-  display:block;
+  display: block;
   width: 100%;
   margin-left: 10px;
 }
@@ -30,9 +30,9 @@ form input
 }
 form button{
   background-color: burlywood;
-  border:0;
+  border: 0;
   border-radius: 6px;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 div.task{
@@ -42,7 +42,7 @@ div.task{
   margin-top: 6px;
   padding: 10px 10px;
   margin-top: 8px;
-  display:flex;
+  display: flex;
   align-items: center;
   transition: opacity .3s linear;
 }
@@ -55,18 +55,18 @@ div.task.done{
   opacity: 0.3;
 }
 div.task-name, div.task form{
-  flex-grow:1;
+  flex-grow: 1;
 }
 div.task span{
   position:relative;
 }
 div.task span:before{
   content:'';
-  display:block;
-  width:0;
-  height:1px;
+  display: block;
+  width: 0;
+  height: 1px;
   background-color: #ddd;
-  position:absolute;
+  position: absolute;
   top: 10px;
   transition: width .1s linear;
 }
@@ -121,7 +121,7 @@ h2 {
 }
 
 div.checkbox{
-  display:flex;
+  display: flex;
   align-items: center;
 }
 .footer__bar {
@@ -139,7 +139,7 @@ div.checkbox{
   margin-bottom: -11px;
 }
 footer {
-bottom:0;
+bottom: 0;
 }
 footer {
   position: fixed;
@@ -206,10 +206,10 @@ footer {
 }
 
 button.trash{
-  background:none;
-  border:none;
-  display:flex;
-  cursor:pointer;
+  background: none;
+  border: none;
+  display: flex;
+  cursor: pointer;
 }
 button.trash svg{
   fill: #888;
@@ -217,7 +217,7 @@ button.trash svg{
 }
 div.task input{
   border: 2px solid #555;
-  border-radius:5px;
+  border-radius: 5px;
   padding: 2px 4px;
 }
 @media (max-width: 477px) {
